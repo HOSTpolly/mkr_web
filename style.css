@@ -169,7 +169,7 @@ main{
 }
 
 .Gafelpaph{
-    text-align: justify;
+    margin-top: 20px;
     width: 650px;
     color:azure;
 }
@@ -188,21 +188,20 @@ main{
 .Gafelpaph h3{
     font-size:18px;
     line-height: 22px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 
 .Gafelpaph p{
     font-size:18px;
     line-height: 22px;
-    margin-bottom: 8px;
-    margin-left: 14px;
+    margin-bottom: 15px;
 }
 
-.Gafelpaph ul li{
-    font-style:bold;
+.Gafelpaph .p_add{
+    float:left;
+    margin-right:10px;
     font-size:22px;
-    list-style-type: none;/*забула про це */
     color:bisque;
 }
 
@@ -222,10 +221,9 @@ main{
     margin-bottom: 45px;
     color:bisque;
 }
-.Students li{
+.Students p{
     margin-top: 20px;
     font-size:18px;
-    list-style-type: none;/*забула про це */
     text-align:justify;
     color:azure;
     margin-bottom: 15px;
@@ -260,7 +258,6 @@ main{
     margin: 0 10px;
     max-width: 33%;
     font-size:22px;
-    font-style:bold;
     text-transform: uppercase;
     color:azure;
      
@@ -270,7 +267,6 @@ main{
     text-align: center;
     max-width: 33%;
     font-size:22px;
-    font-style:bold;
     text-transform: uppercase;
     color:azure;
 }
@@ -287,7 +283,6 @@ main{
     width:60%;
     margin:5px;
     padding:10px;
-    font-style: bold;
 }
 
 .main__main-info_wrapper_side-menu ul li{
